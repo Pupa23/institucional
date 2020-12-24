@@ -1,25 +1,38 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-3">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand ps-3" href="#">
-        <img src="{{ url('/images/logo.png') }}" alt="" width="30" height="24" class="d-inline-block align-top">
-        <span style="font-weight: bold" class="pl-2">Bootstrap</span>
-    </a>
+ <!-- ======= Header ======= -->
+<div class="container d-flex align-items-center">
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
+  <h1 class="logo mr-auto"><a href="index.html">Staudohar</a></h1>
+  <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+  <nav class="nav-menu d-none d-lg-block">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#team">Team</a></li>
+      <li class="drop-down"><a href="">Drop Down</a>
+        <ul>
+          <li><a href="#">Drop Down 1</a></li>
+          <li class="drop-down"><a href="#">Deep Drop Down</a>
+            <ul>
+              <li><a href="#">Deep Drop Down 1</a></li>
+              <li><a href="#">Deep Drop Down 2</a></li>
+              <li><a href="#">Deep Drop Down 3</a></li>
+              <li><a href="#">Deep Drop Down 4</a></li>
+              <li><a href="#">Deep Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Drop Down 2</a></li>
+          <li><a href="#">Drop Down 3</a></li>
+          <li><a href="#">Drop Down 4</a></li>
         </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
 
-        <div class="position-absolute end-0">
-            <span class="text-primary fs-3 fw-bold">Call: </span><span class="fs-2" style="padding-right: 20px">2604848484</span>
-        </div>
+    </ul>
+  </nav><!-- .nav-menu -->
 
-    </div>
-</nav>
+  <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
+</div>
