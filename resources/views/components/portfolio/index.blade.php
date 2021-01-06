@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti fuga maxime minima modi, nam odit quisquam velit. Ab assumenda dicta dolor harum ipsam nulla quam rerum veniam. Alias, perspiciatis.</p>
     </div>
 
     <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">

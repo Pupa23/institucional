@@ -1,4 +1,3 @@
- <!-- ======= About Us Section ======= -->
  <section id="about" class="about">
     <div class="container" data-aos="fade-up">
 
@@ -13,20 +12,18 @@
             magna aliqua.
         </p>
         <ul>
-            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, pariatur.</li>
+            <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, placeat.</li>
+            <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, tempora?</li>
         </ul>
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0">
         <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi enim, eum expedita hic mollitia natus nemo nesciunt nihil perferendis, quaerat quas repellat velit veritatis voluptatem.
         </p>
         <a href="#" class="btn-learn-more">Learn More</a>
         </div>
     </div>
 
     </div>
-</section><!-- End About Us Section -->
+</section>

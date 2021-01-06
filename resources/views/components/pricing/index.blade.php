@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Pricing</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eveniet porro similique. Consectetur, repudiandae, ut? A cumque inventore non quidem tempora tenetur totam! Aliquid at atque, dignissimos doloremque enim expedita explicabo fuga fugit minus molestiae neque quos reiciendis sequi tempore.</p>
     </div>
 
     <div class="row">
