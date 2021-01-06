@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/brick/math" />
@@ -149,6 +152,7 @@
       <workItem from="1607113093820" duration="1780000" />
       <workItem from="1607454770877" duration="27000" />
       <workItem from="1607612952458" duration="2784000" />
+      <workItem from="1609856370737" duration="674000" />
     </task>
     <servers />
   </component>
