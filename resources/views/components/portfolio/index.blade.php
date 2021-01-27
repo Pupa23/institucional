@@ -23,7 +23,7 @@
                     <div class="portfolio-info">
                         <h4>{{ $portfolios[$i]['title'] }}</h4>
                         <p>{{ $portfolios[$i]['subtitle'] }}</p>
-                        <a href="assets/img/portfolio/{{ $portfolios[$i]['url_img'] }}" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                        <a href="assets/img/portfolio/{{ $portfolios[$i]['url_image'] }}" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
                         <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>

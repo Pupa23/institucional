@@ -28,7 +28,7 @@ class MenuTableSeeder extends Seeder
 
         Menu::create(
             [
-                'items' => 'Service'
+                'items' => 'Services'
             ]
         );
 
