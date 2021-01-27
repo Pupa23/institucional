@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71720d59-7c81-4b6c-bff4-b08fb8016fc4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/about/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/callToAction/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/callToAction/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/carousel/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/carousel/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/faq/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/faq/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/portfolio/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/portfolio/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/pricing/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/pricing/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/services/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/services/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/whyUs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/whyUs/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="71720d59-7c81-4b6c-bff4-b08fb8016fc4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +150,17 @@
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/laravel/jetstream" />
+      <path value="$PROJECT_DIR$/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lCtqgs1CKOpo987rtAsgkZPMa1" />
@@ -144,8 +172,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/seeders" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\institucional\public\assets\img" />
+      <recent name="C:\laragon\www\institucional\public\images\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\institucional\database\seeders" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -165,17 +203,56 @@
       <workItem from="1607454770877" duration="27000" />
       <workItem from="1607612952458" duration="2784000" />
       <workItem from="1609856370737" duration="674000" />
-      <workItem from="1609963206734" duration="1205000" />
+      <workItem from="1609963206734" duration="1720000" />
+      <workItem from="1610145819288" duration="3320000" />
+      <workItem from="1610390375176" duration="4552000" />
+      <workItem from="1610854903545" duration="600000" />
+      <workItem from="1611005639179" duration="32000" />
+      <workItem from="1611008064265" duration="1163000" />
+      <workItem from="1611063520949" duration="8000" />
+      <workItem from="1611503941113" duration="2191000" />
+      <workItem from="1611514271917" duration="7155000" />
+      <workItem from="1611554302640" duration="1054000" />
+      <workItem from="1611583852332" duration="23280000" />
+      <workItem from="1611755271623" duration="9904000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2106" y="274" key="FileChooserDialogImpl" timestamp="1607454799725">
+    <state x="301" y="151" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611716119883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="301" y="151" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611716119882" />
+    <state x="2056" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611718118393">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2106" y="274" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607454799725" />
+    <state x="2056" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611718118393" />
+    <state x="2105" y="375" key="#com.jetbrains.php.refactoring.pullPush.pushDown.PhpPushDownDialog#" timestamp="1611717008773">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2105" y="375" key="#com.jetbrains.php.refactoring.pullPush.pushDown.PhpPushDownDialog#/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611717008773" />
+    <state x="2106" y="274" key="FileChooserDialogImpl" timestamp="1611005669230">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2106" y="274" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611005669230" />
+    <state x="1827" y="164" key="SettingsEditor" timestamp="1611605640015">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1827" y="164" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611605640015" />
   </component>
 </project>
