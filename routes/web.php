@@ -22,3 +22,9 @@ Route::get('/about', [AboutController::class, 'index']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::middleware(['auth:sanctum', 'verified'])->get('/main', [\App\Http\Controllers\MainController::class, 'index'])->name('main-index');
+//Route::get('/main', [\App\Http\Controllers\MainController::class, 'index'])->name('main-index');

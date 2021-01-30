@@ -13,3 +13,8 @@
         </div>
     </div>
 </x-app-layout>
+
+
+<div class="container">
+    <h3>hola mudno</h3>
+</div>
