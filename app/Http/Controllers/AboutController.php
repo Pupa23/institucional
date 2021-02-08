@@ -3,13 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\About;
-use App\Models\Contact;
-use App\Models\Faq;
-use App\Models\Main;
-use App\Models\Menu;
-use App\Models\Portfolio;
-use App\Models\Service;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class AboutController extends Controller
 {
@@ -20,24 +15,9 @@ class AboutController extends Controller
      */
     public function index()
     {
-        $about = About::get();
-        $mains = Main::first();
-        $services = Service::get();
-        $menus = Menu::get();
-        $contact = Contact::first();
-        $faqs = Faq::get();
-        $portfolios = Portfolio::get();
+        $abouts = About::all();
 
-
-        return view('layouts.main', [
-            'about' => $about,
-            'mains' => $mains,
-            'services' => $services,
-            'menus' => $menus,
-            'contact' => $contact,
-            'faqs' => $faqs,
-            'portfolios' => $portfolios
-        ]);
+        return view('components.admin.about.index', compact('abouts'));
     }
 
     /**
@@ -47,7 +27,7 @@ class AboutController extends Controller
      */
     public function create()
     {
-        //
+        return view('components.admin.about.create');
     }
 
     /**
@@ -58,7 +38,10 @@ class AboutController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        About::create($request->all());
+
+        $request->session()->flash('alert-success', 'About-us created correctly');
+        return redirect()->route('about-index')->with('success','About-us created correctly');
     }
 
     /**
@@ -78,9 +61,11 @@ class AboutController extends Controller
      * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function edit(About $about)
+    public function edit($id)
     {
-        //
+        $about = About::findOrFail($id);
+
+        return view('components.admin.about.edit', compact('about'));
     }
 
     /**
@@ -90,9 +75,21 @@ class AboutController extends Controller
      * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, About $about)
+    public function update(Request $request, $id)
     {
-        //
+        try {
+            $about = About::findOrFail($id);
+
+            $about->body = $request->body;
+
+            $about->save();
+
+            $request->session()->flash('alert-success', 'About-us updated correctly');
+            return redirect()->route('about-index')->with('success','About-us updated correctly');
+        }catch (\Exception $e) {
+            DB::rollBack();
+            return $e->getMessage();
+        }
     }
 
     /**
@@ -101,8 +98,17 @@ class AboutController extends Controller
      * @param  \App\Models\About  $about
      * @return \Illuminate\Http\Response
      */
-    public function destroy(About $about)
+    public function delete(Request $request, $id)
     {
-        //
+        try {
+            $about = About::findOrFail($id);
+            $about->delete();
+
+            $request->session()->flash('alert-success', 'About-us deleted correctly');
+            return redirect()->route('about-index')->with('success', 'About-us delete correctly');
+
+        }catch (\Exception $e) {
+            return $e->getMessage();
+        }
     }
 }
