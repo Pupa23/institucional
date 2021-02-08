@@ -61,4 +61,3 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::patch('/portfolio{id}', [\App\Http\Controllers\PortfolioController::class, 'update'])->name('portfolio-update');
     Route::delete('/portfolio/{id}', [\App\Http\Controllers\PortfolioController::class, 'delete'])->name('portfolio-delete');
 });
-

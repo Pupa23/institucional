@@ -61,4 +61,5 @@
 
         <button class="btn btn-success ms-2 w-25" type="submit">Submit</button>
     </form>
+
 @endsection

@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Main;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Storage;
 
 class MainController extends Controller
 {
