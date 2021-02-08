@@ -13,7 +13,7 @@
                     <div class="address">
                         <i class="icofont-google-map"></i>
                         <h4>Location:</h4>
-                        <p>{{ $contact['address']}} {{ $contact['number'] }}, {{ $contact['city'] }}, {{ $contact['province'] }}, {{ $contact['country'] }}</p>
+                        <p>{{ $contact['street']}} {{ $contact['number'] }}, {{ $contact['city'] }}, {{ $contact['province'] }}, {{ $contact['country'] }}</p>
                     </div>
 
                     <div class="email">
@@ -54,7 +54,7 @@
                     </div>
                     <div class="form-group">
                         <label for="name">Message</label>
-                        <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                        <textarea style="max-height: 200px" class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">

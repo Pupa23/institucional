@@ -12,13 +12,12 @@
 
             @for($i = 0; $i < count($services); $i++)
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <h4><a href="">{{ $services[$i]['card_title'] }}</a></h4>
-                        <p>{{ $services[$i]['card_description'] }}</p>
+                <div class="card d-flex align-items-stretch mb-4 mx-auto" style="width: 18rem;" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $services[$i]['card_title'] }}</h5>
+                        <p class="card-text">{{ $services[$i]['card_description'] }}</p>
                     </div>
                 </div>
-
             @endfor
 
         </div>

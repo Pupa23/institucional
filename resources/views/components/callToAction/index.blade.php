@@ -9,7 +9,7 @@
         </p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="#">Call To Action</a>
+        <a class="cta-btn align-middle" href="#contact">Call To Action</a>
         </div>
     </div>
 
