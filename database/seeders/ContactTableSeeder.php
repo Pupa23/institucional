@@ -15,7 +15,7 @@ class ContactTableSeeder extends Seeder
     public function run()
     {
         DB::table('contacts')->insert([
-            'address' => 'Av. Mitre',
+            'street' => 'Av. Mitre',
             'number' => 132456,
             'city' => 'San Rafael',
             'province' => 'Mendoza',

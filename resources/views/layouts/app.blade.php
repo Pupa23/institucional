@@ -19,14 +19,29 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <style>
+        .max-height {
+            height: 150px;
+            max-height: 150px;
+        }
+    </style>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
 </head>
 <body>
+
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm ">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }}
-            </a>
+            <h1 class="logo mr-auto"><a href="" style="text-decoration: none">Staudohar</a></h1>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,28 +68,28 @@
                             </li>
                         @endif
                     @else
-                        <li class="nav-item border-end-2">
+                        <li class="nav-item border-end-2 {{ ! Route::is('main-index') ?: 'active' }}">
                             <a class="nav-link" href="{{ route('main-index') }}">Section Main and more</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About As</a>
+                        <li class="nav-item {{ ! Route::is('about-index') ?: 'active' }}">
+                            <a class="nav-link" href="{{ route('about-index') }}">About As</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                        <li class="nav-item {{ ! Route::is('service-index') ?: 'active' }}">
+                            <a class="nav-link" href="{{ route('service-index') }}">Services</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                        <li class="nav-item {{ ! Route::is('portfolio-index') ?: 'active' }}">
+                            <a class="nav-link" href="{{ route('portfolio-index') }}">Portfolio</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
+                        <li class="nav-item {{ ! Route::is('faq-index') ?: 'active' }}">
+                            <a class="nav-link" href="{{ route('faq-index') }}">FAQ</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                        <li class="nav-item {{ ! Route::is('contact-index') ?: 'active' }}">
+                            <a class="nav-link" href="{{ route('contact-index') }}">Contact</a>
                         </li>
 
                         <li class="nav-item dropdown position-absolute end-0 me-5">

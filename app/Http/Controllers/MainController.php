@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Main;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
@@ -18,72 +20,58 @@ class MainController extends Controller
      */
     public function index()
     {
-        return view('components.admin.main.index');
+        $mains = Main::findOrFail(1);
+
+        return view('components.admin.main.index', compact('mains'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        $main = $request->all();
+
+        if ($file = $request->file('url_image')){
+            $name = $file->getClientOriginalName();
+
+            $file->move('assets/img/main', $name);
+
+            $main['url_image'] = $name;
+        }
+
+        Main::create($main);
+
+        $request->session()->flash('alert-success', 'Sections updated correctly');
+        return redirect()->route('main-index')->with('success','Sections updated correctly');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function update(Request $request)
     {
-        //
+        try {
+            $main = Main::findOrFail($request->id);
+            $main->title = $request->title;
+            $main->subtitle = $request->subtitle;
+            $main->description_about = $request->description_about;
+            $main->description_service = $request->description_service;
+            $main->description_cta = $request->description_cta;
+
+            if ($request->file('url_image')){
+                File::delete( public_path().'\assets\img\main\\'.$main->url_image);
+
+                $file = $request->file('url_image');
+                $name = $file->getClientOriginalName();
+                $file->move('assets/img/main', $name);
+
+                $main->url_image = $name;
+            }
+
+            $main->save();
+
+            $request->session()->flash('alert-success', 'Sections updated correctly');
+            return redirect()->route('main-index')->with('success','Sections updated correctly');
+        }catch (\Exception $e) {
+            DB::rollBack();
+            return $e->getMessage();
+        }
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

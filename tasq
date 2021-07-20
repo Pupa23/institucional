@@ -1,0 +1,50 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 7f9f26f..73e3787 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -31,36 +31,7 @@[m
+   </component>[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="71720d59-7c81-4b6c-bff4-b08fb8016fc4" name="Default Changelist" comment="">[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/about/create.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/about/edit.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/about/index.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/contact/index.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/faq/create.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/faq/edit.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/faq/index.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/portfolio/create.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/portfolio/edit.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/portfolio/index.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/service/create.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/service/edit.blade.php" afterDir="false" />[m
+[31m-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin/service/index.blade.php" afterDir="false" />[m
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_24_185559_create_contacts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_24_185559_create_contacts_table.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/database/seeders/ContactTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/ContactTableSeeder.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin/main/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin/main/index.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/components/callToAction/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/callToAction/index.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/components/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/contact/index.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/components/portfolio/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/portfolio/index.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/components/services/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/services/index.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />[m
+[31m-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />[m
+     </list>[m
+     <option name="SHOW_DIALOG" value="false" />[m
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[36m@@ -254,7 +225,7 @@[m
+       <workItem from="1611843066955" duration="10528000" />[m
+       <workItem from="1612034389920" duration="20567000" />[m
+       <workItem from="1612563897248" duration="613000" />[m
+[31m-      <workItem from="1612565020267" duration="30710000" />[m
+[32m+[m[32m      <workItem from="1612565020267" duration="31854000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
