@@ -1,6 +1,6 @@
 <div id="home">
 
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center" style="background-image: URL('assets/img/main/{{ $mains['url_image'] }}');">
 
         <div class="container">
             <div class="row">

@@ -14,22 +14,15 @@
         {{--        </ul>--}}
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
             @for($i = 0; $i < count($portfolios); $i++)
+            <a href="assets/img/portfolio/{{ $portfolios[$i]['url_image'] }}" data-gall="portfolioGallery" class="venobox preview-link">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-img">
                         <img src="assets/img/portfolio/{{ $portfolios[$i]['url_image'] }}" class="img-fluid" alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h4>{{ $portfolios[$i]['title'] }}</h4>
-                        <p>{{ $portfolios[$i]['subtitle'] }}</p>
-                        <a href="assets/img/portfolio/{{ $portfolios[$i]['url_image'] }}" data-gall="portfolioGallery" class="venobox preview-link"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                    </div>
+                    </div>    
                 </div>
+            </a>
             @endfor
-
-
         </div>
 
     </div>

@@ -7,11 +7,7 @@
 
         <div class="row content">
             <div class="col-lg-6">
-                <ul>
-                    @for($i = 0; $i < count($about); $i++)
-                        <li><i class="ri-check-double-line"></i> {{ $about[$i]['body'] }}</li>
-                    @endfor
-                </ul>
+                <img src="assets/img/portfolio/portfolio-5.jpg" class="vbox-figlio">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
                 <p>

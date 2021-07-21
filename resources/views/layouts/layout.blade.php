@@ -12,7 +12,7 @@
 </main>
 </body>
 <footer id="footer">
-    <div class="container footer-bottom clearfix">
+    {{-- <div class="container footer-bottom clearfix">
         <div class="copyright">
             &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
         </div>
@@ -24,7 +24,7 @@
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
     </div>
-    {{--        @include('layouts.footer')--}}
+           @include('layouts.footer') --}}
 </footer>
 @include('layouts.vendor')
 <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
